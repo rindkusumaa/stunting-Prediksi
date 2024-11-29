@@ -15,7 +15,15 @@ choice = st.sidebar.selectbox("Navigasi", menu)
 
 if choice == "Deskripsi":
     st.subheader("Deskripsi")
-    st.write("Aplikasi ini digunakan untuk memprediksi status gizi balita berdasarkan umur, jenis kelamin, dan tinggi badan. Model yang digunakan telah dilatih menggunakan dataset terpercaya.")
+    st.write("""Stunting adalah kondisi gagal tumbuh pada anak balita akibat kekurangan gizi kronis, infeksi berulang, dan stimulasi psikososial yang tidak memadai dalam periode 1.000 hari pertama kehidupan. Stunting memiliki dampak jangka panjang terhadap kesehatan dan kualitas hidup anak. Mengingat pentingnya pencegahan dan penanganan stunting, diperlukan suatu sistem yang dapat membantu dalam mendeteksi potensi stunting pada balita berdasarkan data yang relevan, seperti usia, jenis kelamin, berat badan, dan tinggi badan.
+
+Web prediksi stunting ini dirancang untuk membantu tenaga kesehatan dan masyarakat umum dalam menganalisis risiko stunting pada balita secara cepat dan akurat. Dengan aplikasi ini, pengguna dapat memprediksi tinggi badan balita berdasarkan faktor-faktor tertentu menggunakan metode pembelajaran mesin (machine learning).
+             Aplikasi ini menggunakan metode regresi linier untuk memprediksi tinggi badan balita berdasarkan data usia dan jenis kelamin. Regresi linier dipilih karena:
+
+Hubungan antara umur, jenis kelamin, dan tinggi badan bersifat kontinu.
+
+Metode ini sederhana, cepat, dan menghasilkan interpretasi yang mudah dipahami. 
+""")
 
 elif choice == "Sumber Dataset":
     st.subheader("Sumber Dataset")
