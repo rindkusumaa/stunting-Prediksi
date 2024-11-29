@@ -19,7 +19,7 @@ if choice == "Deskripsi":
 
 elif choice == "Sumber Dataset":
     st.subheader("Sumber Dataset")
-    st.write("Dataset diperoleh dari [example.com/dataset](https://example.com/dataset). Dataset ini berisi data status gizi balita yang mencakup berbagai atribut seperti umur, jenis kelamin, dan tinggi badan.")
+    st.write("Dataset diperoleh dari https://www.kaggle.com/datasets/rendiputra/stunting-balita-detection-121k-rows. Dataset ini berisi data status gizi balita yang mencakup berbagai atribut seperti umur, jenis kelamin, dan tinggi badan.")
 
 elif choice == "Tampilan Dataset":
     st.subheader("Tampilan Dataset")
